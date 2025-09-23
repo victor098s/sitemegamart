@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Cor-header1: #d8d8d8;
+  --Cor-body: ;
+}
+.Header1 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--Cor-header1);
+  color: aliceblue;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.nav {
+  display: flex;
+  gap: 28px;
+  /* padding: 5px 20px 5px 10px; */
+}
+.nav2{
+  display: flex;
+  gap: 18px;
+  color: #2c61f2;
+}
+.search {
+  width: 80px;
+  height: 2rem;
+  border-radius: 5px;
+  box-shadow:rgba(0, 0, 0, 0) ;
+  background-color: #d8d8d8;
+  margin-top: 12px;
+  
+}
+.Header2 {
+  display: flex;
+  justify-content: space-around;
+}
