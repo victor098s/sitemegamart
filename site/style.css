@@ -1,0 +1,123 @@
+/* =========================
+   Global Styles
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #fffcf8;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 span {
+  color: #007bff;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+
+/* =========================
+   Section Headers
+========================= */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+/* =========================
+   Categories
+========================= */
+.categories-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  text-align: center;
+  width: 80px;
+}
+
+.category-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  margin-bottom: 8px;
+}
+
+/* =========================
+   Brands Section
+========================= */
+.brands-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.brand-card {
+  flex: 1;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-card h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.brand-card p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Imagens dentro dos cards */
+.brand-card img {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  height: 130px;
+  object-fit: contain;
+  z-index: 1;
+  background: transparent; /* precisa de PNG transparente */
+}
+
+/* =========================
+   Specific Brand Colors
+========================= */
+.apple {
+  background: #000000;
+  color: #fff;
+}
+
+.realme {
+  background: #fdf187aa;
+  color: #ff8c00;
+}
+
+.xiaomi {
+  background: #fde9e7;
+  color: #ff5622bb;
+}
