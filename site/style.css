@@ -1,6 +1,4 @@
-/* =========================
-   Global Styles
-========================= */
+/* Styles Global */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -15,18 +13,16 @@ h2 {
 }
 
 h2 span {
-  color: #007bff;
+  color: #6eb4ff;
 }
 
 a {
   text-decoration: none;
-  color: #007bff;
+  color: #69b2ff;
   font-size: 14px;
 }
 
-/* =========================
-   Section Headers
-========================= */
+/* Cabeçalhos das Seções */
 .section-header {
   display: flex;
   justify-content: space-between;
@@ -36,9 +32,7 @@ a {
   padding-bottom: 5px;
 }
 
-/* =========================
-   Categories
-========================= */
+/* Categorias*/
 .categories-list {
   display: flex;
   justify-content: space-around;
@@ -52,17 +46,15 @@ a {
 }
 
 .category-item img {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ddd;
   margin-bottom: 8px;
 }
 
-/* =========================
-   Brands Section
-========================= */
+/* Seção de Marcas */
 .brands-list {
   display: flex;
   gap: 20px;
@@ -93,20 +85,18 @@ a {
   margin-top: 8px;
 }
 
-/* Imagens dentro dos cards */
+/* Imagens do celular */
 .brand-card img {
   position: absolute;
-  right: 20px;
-  bottom: 10px;
-  height: 130px;
+  right: 18px;
+  bottom: 8px;
+  height: 120px;
   object-fit: contain;
   z-index: 1;
   background: transparent; /* precisa de PNG transparente */
 }
 
-/* =========================
-   Specific Brand Colors
-========================= */
+/* Cores das marcas */
 .apple {
   background: #000000;
   color: #fff;
