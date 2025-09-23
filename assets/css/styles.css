@@ -1,0 +1,117 @@
+/* Importa a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+/* Aplica a Poppins nos títulos */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* deixa em negrito */
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title a {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  padding: 8px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);  /* leve pulo */
+  border: 1px solid #0a8ddf;                /* borda azul */
+  box-shadow: 0 6px 12px rgba(10, 141, 223, 0.3); /* sombra azulada */
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+}
+
+.card img {
+  max-width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #00bcd4;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.save {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* escondidos por padrão */
+.extra {
+  display: none;
+}

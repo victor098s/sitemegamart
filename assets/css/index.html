@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promoção Smartphones</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="title">
+      <h2>Obtenha o melhor ideal em  <a href="#">Smartphones</a></h2>
+      <a id="viewMoreBtn">Ver mais</a>
+    </div>
+
+    <div class="grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <span class="discount">56% OFF</span>
+        <div class="img-box">
+          <img src="../img/galaxys22ultra.png" alt="Galaxy S22 Ultra">
+        </div>
+        <h3>Samsung Galaxy S22 Ultra (5GB | 256 GB) </h3>
+        <p class="price">R$2.679,91<span class="old-price">R$4.785,57</span></p>
+        <p class="save">Economize - R$2.679,91</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <span class="discount">56% OFF</span>
+        <div class="img-box">
+          <img src="../img/galaxym13.png" alt="Galaxy M13">
+        </div>
+        <h3>Samsung Galaxy M13 (4GB | 64 GB)</h3>
+        <p class="price">R$719,60<span class="old-price">R$1.285,90</span></p>
+        <p class="save">Economize - R$566,30</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <span class="discount">56% OFF</span>
+        <div class="img-box">
+          <img src="../img/galaxym33.png" alt="Galaxy M33">
+        </div>
+        <h3>Samsung Galaxy M33 (4GB | 64 GB)</h3>
+        <p class="price">R$489,42 <span class="old-price">873,98</span></p>
+        <p class="save">Economize - R$384,46</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <span class="discount">56% OFF</span>
+        <div class="img-box">
+          <img src="../img/image.png" alt="Galaxy M53">
+        </div>
+        <h3>Samsung Galaxy M53 (4GB | 64 GB)</h3>
+        <p class="price">R$965,37 <span class="old-price">R$1.723,88</span></p>
+        <p class="save">Economize - R$758,51</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card">
+        <span class="discount">56% OFF</span>
+        <div class="img-box">
+          <img src="https://m.media-amazon.com/images/I/41EC86USztL.jpg" alt="Galaxy Z Fold">
+        </div>
+        <h3>Samsung Galaxy Z Fold (5GB | 256 GB)</h3>
+        <p class="price">R$3807,94 <span class="old-price">R$6.799,90</span></p>
+        <p class="save">Economize - R$2.991,96</p>
+      </div>
+
+      <!-- Cards extras escondidos -->
+      <div class="extra">
+        <div class="card">
+          <span class="discount">40% OFF</span>
+          <div class="img-box">
+            <img src="https://www.havan.com.br/media/catalog/product/cache/73a52df140c4d19dbec2b6c485ea6a50/c/e/celular-smartphone-samsung-galaxy-a54-5g-octacore-8gb-ram-128gb_811333.webp" alt="Galaxy A54 5G">
+          </div>
+          <h3>Samsung Galaxy A52 (6GB | 128 GB)</h3>
+          <p class="price">R$607,89 <span class="old-price">R$1.519,73</span></p>
+          <p class="save">Economize - R$911,84</p>
+        </div>
+      </div>
+
+      <div class="extra">
+        <div class="card">
+          <span class="discount">40% OFF</span>
+          <div class="img-box">
+            <img src="https://br.etoren.com/upload/images/0.56691800_1720679099_samsung-galaxy-z-flip-6-5g-sm-f741b-256gb-yellow-12gb-ram.jpg" alt="Galaxy A54 5G">
+          </div>
+          <h3>Samsung Galaxy A54 5G (6GB | 128 GB)</h3>
+          <p class="price">R$769,00 <span class="old-price">R$1.922,50</span></p>
+          <p class="save">Economize - R$1.153,50</p>
+        </div>
+      </div>
+
+      <div class="extra">
+        <div class="card">
+          <span class="discount">40% OFF</span>
+          <div class="img-box">
+            <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/328916/Smartphone-Samsung-Galaxy-S22-128GB-RAM-8GB-5G-C-mera-Tripla-50MP-Selfie-10MP-Tela-6-1-Rose_1697055541_g.jpg" alt="Galaxy A54 5G">
+          </div>
+          <h3>Samsung Galaxy S22 5G (6GB | 128 GB)</h3>
+          <p class="price">R$639,82 <span class="old-price">R$1.599,55</span></p>
+          <p class="save">Economize - R$959,53</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!--codigo para aparecer mais opções-->
+  <script>
+    const viewMoreBtn = document.getElementById('viewMoreBtn');
+    const extras = document.querySelectorAll('.extra');
+    let expanded = false;
+
+    viewMoreBtn.addEventListener('click', () => {
+      extras.forEach(item => {
+        item.style.display = expanded ? 'none' : 'block';
+      });
+      viewMoreBtn.textContent = expanded ? 'View All' : 'View Less';
+      expanded = !expanded;
+    });
+  </script>
+
+</body>
+</html>
