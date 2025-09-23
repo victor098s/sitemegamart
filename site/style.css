@@ -1,5 +1,5 @@
 /* =========================
-   Estilos Globais
+   Style Global
 ========================= */
 body {
   font-family: Arial, sans-serif;
@@ -111,6 +111,7 @@ a {
 .brand-card img {
   max-height: 160px;
   max-width: 160px;
+  border-radius: 7%;
   object-fit: contain;
   align-self: flex-end;
 }
