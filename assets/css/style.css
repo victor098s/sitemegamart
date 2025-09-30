@@ -420,7 +420,8 @@ a {
 .title a {
   color: #007bff;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .grid {
